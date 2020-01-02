@@ -10,6 +10,9 @@
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
 
+  <script src="src/scoreCard.js"></script>
+  <script src="src/calculateScore.js"></script>
+
 </head>
 <div class="header">
   <h1> BOWLING SCORECARD </h1>
@@ -48,6 +51,12 @@
   <div class="score">
     0
   </div>
+
+  <script>
+  window.onload = function() {
+    $("div.score").text(calculateScore(createScoreCard(new URLSearchParams(window.location.search))));
+  };
+  </script>
 
 </body>
 </html>
