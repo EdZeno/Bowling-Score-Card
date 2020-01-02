@@ -1,0 +1,34 @@
+div.form
+{
+  display: block;
+  text-align: center;
+}
+form
+{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+div.form {
+    padding-bottom: 20px;
+}
+div.header
+{
+  display: block;
+  text-align: center;
+}
+div.title
+{
+  display: block;
+  text-align: center;
+}
+div.score
+{
+  display: block;
+  text-align: center;
+}
+body {
+  background-image: url(public/bowling.jpg);
+  background-size: cover;
+}
