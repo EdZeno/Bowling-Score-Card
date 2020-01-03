@@ -52,3 +52,15 @@ Copy the full path of index.html.
 Past it into your favorite browser.  
 You will see this:  
 ![UI Example](public/demo.png)
+Fill in the form and click "Calculate".
+
+### How to run the tests?
+
+Copy the full path of SpecRunner.html.  
+Past it into a browser.  
+You will see passing Jasmine tests:
+![JASMINE Example](public/Jasmine.png)
+
+To run eslint run the following commands in the terminal:
+- ./node_modules/.bin/eslint src/**  
+- ./node_modules/.bin/eslint spec/**  
