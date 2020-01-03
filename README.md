@@ -46,8 +46,9 @@ More about ten pin bowling here: http://en.wikipedia.org/wiki/Ten-pin_bowling
 
 ### How to use it?
 
-Clone this repository.
-Copy the full path of index.html.
-Past it into your favorite browser.
-You will see this:
+Clone this repository.  
+CD to the root directory and run - npm install.  
+Copy the full path of index.html.  
+Past it into your favorite browser.  
+You will see this:  
 ![UI Example](public/demo.png)
