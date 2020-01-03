@@ -14,10 +14,8 @@ let calculateScore = function(input) {
       scoreByFrames.push(input[i].reduce((a, b) => a + b, 0))
     }
   }
-
+  
   let totalScore = scoreByFrames.reduce((a, b) => a + b, 0)
 
-  // console.log(scoreByFrames)
-  // console.log(totalScore)
   return totalScore
 }
