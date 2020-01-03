@@ -64,3 +64,14 @@ You will see passing Jasmine tests:
 To run eslint run the following commands in the terminal:
 - ./node_modules/.bin/eslint src/**  
 - ./node_modules/.bin/eslint spec/**  
+
+### How to make it better?
+
+At present it is possible to enter values for a frame that combined are greater than 10 which is
+incorrect as each frame has 10 pins.
+
+### PS
+
+Adding up bowling scores turned out to be more challenging than I expected, but it was good fun.
+
+I have tried to build it as simple as possible and I did not want to run it on a server or deploy it. 
