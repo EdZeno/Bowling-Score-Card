@@ -12,8 +12,7 @@ A bowling game consists of 10 frames in which the player tries to knock down the
 
 In any order you like:
 
-* Create a nice interactive animated interface with jQuery.
-* * Set up [Circle CI](https://travis-ci.org) to run your tests.
+* Create a nice interactive interface with jQuery.
 * Add [ESLint](http://eslint.org/) to your codebase and make your code conform.
 
 ## Bowling — how does it work?
@@ -44,3 +43,11 @@ In the image below you can find some score examples.
 More about ten pin bowling here: http://en.wikipedia.org/wiki/Ten-pin_bowling
 
 ![Ten Pin Score Example](public/example_ten_pin_scoring.png)
+
+### How to use it?
+
+Clone this repository.
+Copy the full path of index.html.
+Past it into your favorite browser.
+You will see this:
+![UI Example](public/demo.png)
